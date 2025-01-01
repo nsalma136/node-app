@@ -8,9 +8,9 @@ app.use(express.json());
 // Basic GET endpoint with a cooler response
 app.get('/', (req, res) => {
     const coolResponses = [
-        "🚀 Welcome to the Node.js Express server, where coding dreams come true check test webhook!",
-        "✨ You've just landed in the realm of awesome Express servers after check test webhook!",
-        "🌟 Hello there, explorer! Ready to embark on a Node.js adventure check test webhook?"
+        "🚀 Welcome to the Node.js Express server, where coding dreams come true check test!",
+        "✨ You've just landed in the realm of awesome Express servers after check test!",
+        "🌟 Hello there, explorer! Ready to embark on a Node.js adventure check test?"
     ];
     const randomIndex = Math.floor(Math.random() * coolResponses.length);
     console.log("GET / endpoint called");
